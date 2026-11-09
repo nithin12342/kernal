@@ -1,0 +1,26 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Python cache artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Binary and object files
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.tar.gz
+

@@ -1,0 +1,23 @@
+[package]
+name = "sheaf_conveyor_rust"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+gpu = []
+
+[[bin]]
+name = "bench"
+path = "src/bin/bench.rs"
+
+[[bin]]
+name = "bench_100"
+path = "src/bin/bench_100.rs"
+
+[[bin]]
+name = "bench_gpu"
+path = "src/bin/bench_gpu.rs"
+required-features = ["gpu"]
+
+[dependencies]

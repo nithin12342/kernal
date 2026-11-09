@@ -1,0 +1,11 @@
+﻿================================================================================
+PHYSICAL SILICON MULTI-PRECISION BENCHMARK RESULTS (TESLA T4 GDDR6)
+================================================================================
+Tier: FP32 (Single 32-bit)      | Latency:  9.49 us/step | 105332.3 steps/s | Dirichlet: 2.795522 (diff: 4.77e-7) | L_inf: 4.47e-8
+Tier: FP16 (Half 16-bit)        | Latency:  9.91 us/step | 100884.6 steps/s | Dirichlet: 2.795183 (diff: 3.40e-4) | L_inf: 1.93e-4
+Tier: BF16 (Brain Float 16)     | Latency:  9.94 us/step | 100563.1 steps/s | Dirichlet: 2.793902 (diff: 1.62e-3) | L_inf: 1.36e-3
+Tier: FP8  (Micro Float E4M3)   | Latency: 16.21 us/step |  61704.0 steps/s | Dirichlet: 0.000000 (diff: 2.80e0) | L_inf: 1.14e-1
+Tier: FP4  (Sub-Byte E2M1)      | Latency: 18.41 us/step |  54319.5 steps/s | Dirichlet: 0.000000 (diff: 2.80e0) | L_inf: 1.14e-1
+================================================================================
+test test_physical_gpu_silicon_execution ... ok
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.27s

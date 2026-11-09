@@ -1,0 +1,130 @@
+{
+  "files": [
+    {
+      "path": "src/kernels/gnn_cuda/sheaf_cuda_engine.cu",
+      "size_bytes": 13452,
+      "sha256": "bffb9b18c769de4184fe138fb730f7916ed429696b6e815a3b8b913ebb6a17d1"
+    },
+    {
+      "path": "src/kernels/gnn_cuda/sheaf_precision.cuh",
+      "size_bytes": 3161,
+      "sha256": "6a4e9a0f9fbf82bee81b47c0720ba9f3a5207000abfcd8be79b9df136fc19bb6"
+    },
+    {
+      "path": "src/crates/sheaf_metaprog/Cargo.toml",
+      "size_bytes": 85,
+      "sha256": "1715f4d782dcf8320ac124f41747d22bcf20f0943fee7a0fc97967df67f707fd"
+    },
+    {
+      "path": "src/crates/sheaf_metaprog/src/lib.rs",
+      "size_bytes": 327,
+      "sha256": "1447d2eab65cb6f76af5d4224e7763499be927396c3be274aa512696502c71a4"
+    },
+    {
+      "path": "src/crates/sheaf_metaprog/src/stalk.rs",
+      "size_bytes": 2415,
+      "sha256": "42ec7b337ab736d963b3544b64e0332b75e0ee72c5d4671b4fb4aad63b12daa0"
+    },
+    {
+      "path": "src/crates/sheaf_metaprog/src/unroll.rs",
+      "size_bytes": 2742,
+      "sha256": "cff78a20bc9c2deadeeec18215008b01515360c0877410129df100884416ebc5"
+    },
+    {
+      "path": "src/crates/shelf_db/Cargo.toml",
+      "size_bytes": 161,
+      "sha256": "b53eebfbf60d7c204a480acc271f26deb3b43330c72e06cf6b8e518582128125"
+    },
+    {
+      "path": "src/crates/shelf_db/src/lib.rs",
+      "size_bytes": 699,
+      "sha256": "e7959570ea11e06805874b04821d9112b5652529b5c7b0ad68d1e448761821c0"
+    },
+    {
+      "path": "src/crates/shelf_db/src/conveyor/hot_swap.rs",
+      "size_bytes": 2368,
+      "sha256": "2b1a7fdff56e2367615ddd95c90861fcce3699030360c22e11356b89abd3a4f5"
+    },
+    {
+      "path": "src/crates/shelf_db/src/conveyor/mod.rs",
+      "size_bytes": 667,
+      "sha256": "1275b70bf56195ef66e3dddb1313f99546e7ab6668f6a41735b9130769f57d49"
+    },
+    {
+      "path": "src/crates/shelf_db/src/conveyor/pipeline.rs",
+      "size_bytes": 10905,
+      "sha256": "4abe1c0c598ae9a8004dbae74552da5a0811aeace32cee050c03c1298484e2d6"
+    },
+    {
+      "path": "src/crates/shelf_db/src/conveyor/ring_buffer.rs",
+      "size_bytes": 3336,
+      "sha256": "4d8aabbe048142894dd1d921037b26f76c7a938524ea74fe869a43c7839ab746"
+    },
+    {
+      "path": "src/crates/shelf_db/src/conveyor/speculation.rs",
+      "size_bytes": 1734,
+      "sha256": "ef4d8cc464471bdb20751c0177b7ee8800bc8a7acabad90e2556a112bdcf01f2"
+    },
+    {
+      "path": "src/crates/shelf_db/src/conveyor/stages.rs",
+      "size_bytes": 5328,
+      "sha256": "dc8d4565c3dc47c3a7990b85daa00ceeefcb15397ff1437324e2cc4f2251567e"
+    },
+    {
+      "path": "src/crates/shelf_db/src/gpu/backend.rs",
+      "size_bytes": 7752,
+      "sha256": "e8408f131b71ef4b55f1a3677908e2f1933e811160af706529c26343798025b3"
+    },
+    {
+      "path": "src/crates/shelf_db/src/gpu/mod.rs",
+      "size_bytes": 269,
+      "sha256": "f8a8aa4926064884418cc7b036c3a6534292ba1870d1d9562b8c8939192cb027"
+    },
+    {
+      "path": "src/crates/shelf_db/src/storage/bsr_graph.rs",
+      "size_bytes": 2244,
+      "sha256": "9bbbe8a2ce484591ea08702fa75c10b4b0f020e984a715c04ad16c0ba92458fe"
+    },
+    {
+      "path": "src/crates/shelf_db/src/storage/mod.rs",
+      "size_bytes": 376,
+      "sha256": "439e382ba95e154c60ad11ec8f1d08481fdc82686239821b25c9f0a869c202a9"
+    },
+    {
+      "path": "src/crates/shelf_db/src/storage/telemetry.rs",
+      "size_bytes": 1604,
+      "sha256": "1f3323e6f5a53d9fb0943be6b7f4b4ddcb075d37cf9a99a0fd2e778b08e37529"
+    },
+    {
+      "path": "src/crates/shelf_db/tests/test_gpu_silicon.rs",
+      "size_bytes": 5546,
+      "sha256": "ad3cd63a04ed5988d0155e1fcaff5168ae4a9cb0f042830915c845659fafd116"
+    },
+    {
+      "path": "bin/libsheaf_gpu.so",
+      "size_bytes": 1161656,
+      "sha256": "3e2753895905ee6a13024bd7b61f73fa5d91224ea154e287f857e91e5b1946b7"
+    },
+    {
+      "path": "bin/test_gpu_silicon",
+      "size_bytes": 8146536,
+      "sha256": "2e70f5cc5729893634690e4eca63fed95e00d430c2baf03ebdaba1865eb21f63"
+    },
+    {
+      "path": "telemetry/nvcc_version.txt",
+      "size_bytes": 211,
+      "sha256": "fc7ce0c80d28ed925fd490dc4e3915ce620fcf115f965189688c6f049243aad5"
+    },
+    {
+      "path": "telemetry/nvidia_smi_summary.csv",
+      "size_bytes": 204,
+      "sha256": "d8f3fcd685606e69afbe0f0fcb35f90ec8ff7ad27d2ec79cddd09e8c3e1a0043"
+    },
+    {
+      "path": "telemetry/test_execution_stdout.txt",
+      "size_bytes": 1106,
+      "sha256": "7eff338ad79fcbcd14779ad3701ecb0625123b57151949f73034d63f360bd726"
+    }
+  ],
+  "session_timestamp": "2026-11-05T15:07:00+05:30"
+}

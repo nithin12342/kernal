@@ -1,0 +1,11 @@
+[package]
+name = "shelf_db"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+gpu = []
+
+[dependencies]
+sheaf_metaprog = { path = "../sheaf_metaprog" }
